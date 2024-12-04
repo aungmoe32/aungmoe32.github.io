@@ -1,241 +1,534 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" type="image/png" href="./images/pf-circle.png" />
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="shortcut icon" type="image/png" href="./images/favicon.png" />
+    <title>
+      Aung Moe Myint Thu | A Full-Stack Web Developer From Thaton, Myanmar.
+    </title>
 
-  <title>
-    Aung Moe Myint Thu | A Full-Stack Web Developer From Thaton, Myanmar. 
-  </title>
-  </title>
+    <meta name="description" content="Add small description of yourslef." />
+    <!-- Add some coding keywords below, Ex: (React, CSS etc) -->
+    <meta
+      name="keywords"
+      content="Put your name, skills and some coding keywords"
+    />
+    <link rel="stylesheet" href="index.css" />
+  </head>
 
-  <meta name="description" content="Add small description of yourslef.">
-  <!-- Add some coding keywords below, Ex: (React, CSS etc) -->
-  <meta name="keywords" content="Put your name, skills and some coding keywords" />
-  <link rel="stylesheet" href="index.css" />
-</head>
+  <body>
+    <!-- ***** Header ***** -->
 
-<body>
+    <header class="header" role="banner" id="top">
+      <div class="row">
+        <nav class="nav" role="navigation">
+          <ul class="nav__items">
+            <li class="nav__item">
+              <a href="#work" class="nav__link">Work</a>
+            </li>
+            <li class="nav__item">
+              <a href="#clients" class="nav__link">Clients</a>
+            </li>
+            <li class="nav__item">
+              <a href="#about" class="nav__link">About</a>
+            </li>
+            <li class="nav__item">
+              <a href="#contact" class="nav__link">Contact</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <div class="header__text-box row">
+        <div class="header__text">
+          <h1 class="heading-primary">
+            <!-- Replace the following name with your name -->
+            <span>Aung Moe Myint Thu</span>
+          </h1>
+          <!-- Put a small paragraph about yourself -->
+          <p>A Full-Stack Web Developer From Thaton, Myanmar.</p>
+          <a href="#contact" class="btn btn--pink">Get in touch</a>
+        </div>
+      </div>
+    </header>
 
-  <!-- ***** Header ***** -->
+    <main role="main">
+      <!-- ***** Work ***** -->
 
-  <header class="header" role="banner" id="top">
-    <div class="row">
-      <nav class="nav" role="navigation">
-        <ul class="nav__items">
-          <li class="nav__item"><a href="#work" class="nav__link">Work</a></li>
-          <!-- <li class="nav__item"><a href="#clients" class="nav__link">Clients</a></li> -->
-          <li class="nav__item">
-            <a href="#about" class="nav__link">About</a>
+      <section class="work" id="work">
+        <div class="row">
+          <h2>My Work</h2>
+          <div class="work__boxes">
+            <!-- Each div with the work__box class is a project. -->
+
+            <div class="work__box">
+              <div class="work__text">
+                <h3>UCMS</h3>
+                <p>
+                  A web app for managing campus operations, featuring timetable
+                  management, live notifications, and role-based access for
+                  students and teachers.
+                </p>
+                <ul class="work__list">
+                  <li>React</li>
+                  <li>NextJs</li>
+                  <li>TailwindCSS</li>
+                  <li>PostgreSQL</li>
+                </ul>
+
+                <div class="work__links">
+                  <a
+                    href="https://ucms-orpin.vercel.app"
+                    target="_blank"
+                    class="link__text"
+                  >
+                    Visit Site <span>&rarr;</span>
+                  </a>
+                  <a
+                    href="https://github.com/aungmoe32/ucms"
+                    title="View Source Code"
+                    target="_blank"
+                  >
+                    <img
+                      src="./images/github.svg"
+                      class="work__code"
+                      alt="GitHub"
+                    />
+                  </a>
+                  <a
+                    href="https://youtu.be/AUF3MB7q9Xo?si=4Vue81lRmyFvyvyJ"
+                    title="View Demo Video"
+                    target="_blank"
+                  >
+                    <img
+                      src="./images/yt.svg"
+                      class="work__code"
+                      alt="Youtube"
+                    />
+                  </a>
+                </div>
+              </div>
+              <div class="work__image-box">
+                <img
+                  src="https://raw.githubusercontent.com/aungmoe32/cv/refs/heads/main/images/ucms.png"
+                  class="work__image"
+                  alt="Project 1"
+                />
+              </div>
+            </div>
+
+            <div class="work__box">
+              <div class="work__text">
+                <h3>Passport OAuth Server</h3>
+                <p>
+                  An OAuth authentication and authorization server built with
+                  Laravel Filament, designed to securely manage user access
+                  across applications.
+                </p>
+                <ul class="work__list">
+                  <li>Laravel</li>
+                  <li>Passport</li>
+                  <li>Filament</li>
+                </ul>
+
+                <div class="work__links">
+                  <a
+                    href="https://passport-client.fly.dev/app"
+                    target="_blank"
+                    class="link__text"
+                  >
+                    Visit Site <span>&rarr;</span>
+                  </a>
+                  <a
+                    href="https://github.com/aungmoe32/passport-server"
+                    title="View Source Code"
+                    target="_blank"
+                  >
+                    <img
+                      src="./images/github.svg"
+                      class="work__code"
+                      alt="GitHub"
+                    />
+                  </a>
+                  <a
+                    href="https://youtu.be/I_8JTz8vass?si=7bpvZc2AQ1d8m_Wc"
+                    title="View Demo Video"
+                    target="_blank"
+                  >
+                    <img
+                      src="./images/yt.svg"
+                      class="work__code"
+                      alt="Youtube"
+                    />
+                  </a>
+                </div>
+              </div>
+              <div class="work__image-box">
+                <img
+                  src="https://raw.githubusercontent.com/aungmoe32/cv/refs/heads/main/images/passport.png"
+                  class="work__image"
+                  alt="Project 1"
+                />
+              </div>
+            </div>
+
+            <div class="work__box">
+              <div class="work__text">
+                <h3>LMS</h3>
+                <p>
+                  Learning Management System (LMS) A Laravel and Vue-based
+                  platform for managing online courses, featuring user roles
+                  (Student, Instructor, Admin), course creation, ratings, and
+                  PayPal integration. Includes multi-format lecture support and
+                  responsive design.
+                </p>
+                <ul class="work__list">
+                  <li>Laravel</li>
+                  <li>Vue</li>
+                  <li>Vuetify</li>
+                </ul>
+
+                <div class="work__links">
+                  <a
+                    href="https://github.com/aungmoe32/lms"
+                    target="_blank"
+                    class="link__text"
+                  >
+                    Visit Site <span>&rarr;</span>
+                  </a>
+                  <a
+                    href="https://github.com/aungmoe32/lms"
+                    title="View Source Code"
+                    target="_blank"
+                  >
+                    <img
+                      src="./images/github.svg"
+                      class="work__code"
+                      alt="GitHub"
+                    />
+                  </a>
+                  <a
+                    href="https://youtu.be/a6o9gL58PYc?si=dXAeuJTCtZ6jkFf_"
+                    title="View Demo Video"
+                    target="_blank"
+                  >
+                    <img
+                      src="./images/yt.svg"
+                      class="work__code"
+                      alt="Youtube"
+                    />
+                  </a>
+                </div>
+              </div>
+              <div class="work__image-box">
+                <img
+                  src="https://raw.githubusercontent.com/aungmoe32/cv/refs/heads/main/images/lms.jpg"
+                  class="work__image"
+                  alt="Project 1"
+                />
+              </div>
+            </div>
+
+            <div class="work__box">
+              <div class="work__text">
+                <h3>Chaz</h3>
+                <p>
+                  A React Native-based social app with real-time video calls,
+                  live notifications, user profiles, and Google authentication.
+                </p>
+                <ul class="work__list">
+                  <li>React Native</li>
+                  <li>Expo</li>
+                  <li>Firebase</li>
+                  <li>VideoSDK</li>
+                </ul>
+
+                <div class="work__links">
+                  <a
+                    href="https://github.com/aungmoe32/Chaz"
+                    target="_blank"
+                    class="link__text"
+                  >
+                    Visit Site <span>&rarr;</span>
+                  </a>
+                  <a
+                    href="https://github.com/aungmoe32/Chaz"
+                    title="View Source Code"
+                    target="_blank"
+                  >
+                    <img
+                      src="./images/github.svg"
+                      class="work__code"
+                      alt="GitHub"
+                    />
+                  </a>
+                  <a
+                    href="https://youtu.be/eAF7teXrRVw?si=sK1NOlFwvMRUW4NU"
+                    title="View Demo Video"
+                    target="_blank"
+                  >
+                    <img
+                      src="./images/yt.svg"
+                      class="work__code"
+                      alt="Youtube"
+                    />
+                  </a>
+                </div>
+              </div>
+              <div class="work__image-box">
+                <img
+                  src="https://raw.githubusercontent.com/aungmoe32/cv/refs/heads/main/images/chaz.jpg"
+                  class="work__image"
+                  style="width: 600px"
+                  alt="Project 1"
+                />
+              </div>
+            </div>
+
+            <div class="work__box">
+              <div class="work__text">
+                <h3>Sweepers</h3>
+                <p>
+                  A waste management web app built with Next.js, integrating
+                  AI-powered hardware to reward users for recycling. Features
+                  include coupon-based rewards, chatbot assistance, and a
+                  responsive design for seamless user interaction.
+                </p>
+                <ul class="work__list">
+                  <li>NextJs</li>
+                  <li>TailwindCSS</li>
+                </ul>
+
+                <div class="work__links">
+                  <a
+                    href="https://hack-ivory.vercel.app/"
+                    target="_blank"
+                    class="link__text"
+                  >
+                    Visit Site <span>&rarr;</span>
+                  </a>
+                  <a
+                    href="https://github.com/aungmoe32/sweepers"
+                    title="View Source Code"
+                    target="_blank"
+                  >
+                    <img
+                      src="./images/github.svg"
+                      class="work__code"
+                      alt="GitHub"
+                    />
+                  </a>
+                  <a
+                    href="https://youtu.be/e18QLYA0MGk?si=6uWULdFOHNGgcLjT"
+                    title="View Demo Video"
+                    target="_blank"
+                  >
+                    <img
+                      src="./images/yt.svg"
+                      class="work__code"
+                      alt="Youtube"
+                    />
+                  </a>
+                </div>
+              </div>
+              <div class="work__image-box">
+                <img
+                  src="https://raw.githubusercontent.com/aungmoe32/cv/refs/heads/main/images/sweepers.png"
+                  class="work__image"
+                  alt="Project 1"
+                />
+              </div>
+            </div>
+
+            <div class="work__box">
+              <div class="work__text">
+                <h3>ROSI Restaurant</h3>
+                <p>Responsive Frontend Design of Restaurant Web App</p>
+                <ul class="work__list">
+                  <li>HTML</li>
+                  <li>CSS / TailwindCSS</li>
+                  <li>JavaScript</li>
+                </ul>
+
+                <div class="work__links">
+                  <a
+                    href="https://restaurant-pj.vercel.app/"
+                    target="_blank"
+                    class="link__text"
+                  >
+                    Visit Site <span>&rarr;</span>
+                  </a>
+                  <a
+                    href="https://github.com/aungmoe32/restaurant-pj"
+                    title="View Source Code"
+                    target="_blank"
+                  >
+                    <img
+                      src="./images/github.svg"
+                      class="work__code"
+                      alt="GitHub"
+                    />
+                  </a>
+                  <a
+                    href="https://m.youtube.com/watch?v=K-ERtOk7Ook"
+                    title="View Demo Video"
+                    target="_blank"
+                    href=""
+                  >
+                    <img
+                      src="./images/yt.svg"
+                      class="work__code"
+                      alt="Youtube"
+                    />
+                  </a>
+                </div>
+              </div>
+              <div class="work__image-box">
+                <img
+                  src="./images/projects/rosi.png"
+                  class="work__image"
+                  alt="Project 1"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ***** Clients ***** -->
+
+      <!-- ***** About ***** -->
+
+      <section class="about" id="about">
+        <div class="row">
+          <h2>About Me</h2>
+          <div class="about__content">
+            <div class="about__text">
+              <!-- Replace the below paragraph with info about yourself -->
+              <p>
+                Hi! 👋 I’m <b>Aungmoe</b>, a web developer who loves creating
+                amazing websites and apps. I enjoy making things look great 🎨
+                and work smoothly ⚙️.
+                <br />
+
+                <br />
+                <b>💻 What I Do:</b>
+                <br />
+                Frontend: Building user-friendly designs with React, Next.js,
+                and TailwindCSS. <br />
+                Backend: Creating strong and secure systems using Node.js,
+                Laravel, and PostgreSQL. <br />
+                Full-Stack: Combining everything to deliver complete projects.
+                <br />
+                <br />
+                🌟 <b>What I Love</b>: I’m always learning new things 📚,
+                solving problems 🧩, and working with great people 🤝. My goal
+                is to build projects that help others and make a difference.
+                <br />
+                <br />
+                ✨ <b>Outside Work</b>: When I’m not coding, I enjoy listening
+                to music 🎶, exploring tech 🔍, and improving my skills every
+                day 🚀.
+                <br />
+                Let’s connect and create something awesome together! 💡
+              </p>
+              <!-- Provide a link to your resume -->
+              <a
+                target="_blank"
+                href="https://drive.google.com/file/d/1FYkhOaN6Vn7E4k3beq047fTfoHGKGjzC/view?usp=sharing"
+                class="btn"
+                >Download CV</a
+              >
+            </div>
+
+            <div class="about__photo-container">
+              <!-- Add a nice photo of yourself -->
+              <img class="about__photo" src="./images/pf.jpeg" alt="" />
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- ***** Contact ***** -->
+
+    <section class="contact" id="contact">
+      <div class="row">
+        <h2>Get in Touch</h2>
+        <div class="contact__info">
+          <p>
+            I’m always open to exciting opportunities, collaborations, and new
+            challenges. Whether you’re looking for a skilled developer to bring
+            your vision to life, need advice on a tech project, or simply want
+            to discuss innovative ideas, I’d love to hear from you! As a
+            passionate web developer, I thrive on solving complex problems and
+            creating seamless digital experiences. From modern, responsive
+            websites to robust backend systems, I bring creativity, technical
+            expertise, and a dedication to excellence to every project.
+          </p>
+          <!-- Replace the email with yours -->
+          <a href="mailto:aungmoemyintthu@gmail.com" class="btn"
+            >aungmoemyintthu@gmail.com</a
+          >
+        </div>
+      </div>
+    </section>
+
+    <!-- ***** Footer ***** -->
+
+    <footer role="contentinfo" class="footer">
+      <div class="row">
+        <!-- Update the links to point to your accounts -->
+        <ul class="footer__social-links">
+          <li class="footer__social-link-item">
+            <a
+              href="https://www.facebook.com/aungmoemyinthu"
+              title="Link to Facebook Profile"
+            >
+              <img
+                src="./images/fb.svg"
+                class="footer__social-image"
+                alt="Facebook"
+              />
+            </a>
           </li>
-          <li class="nav__item">
-            <a href="#contact" class="nav__link">Contact</a>
+          <li class="footer__social-link-item">
+            <a
+              href="https://github.com/aungmoe32"
+              title="Link to Github Profile"
+            >
+              <img
+                src="./images/github.svg"
+                class="footer__social-image"
+                alt="Github"
+              />
+            </a>
+          </li>
+          <li class="footer__social-link-item">
+            <a href="https://www.linkedin.com/in/aung-moe-myint-thu-679884258">
+              <img
+                src="./images/linkedin.svg"
+                title="Link to Linkedin Profile"
+                class="footer__social-image"
+                alt="Linkedin"
+              />
+            </a>
           </li>
         </ul>
-      </nav>
-    </div>
-    <div class="header__text-box row">
-      <div class="header__text">
-        <h1 class="heading-primary">
-          <!-- Replace the following name with your name -->
-          <span>Aung Moe Myint Thu</span>
-        </h1>
-        <!-- Put a small paragraph about yourself -->
-        <p>A Full-Stack Web Developer From Thaton, Myanmar.</p>
-        <a href="#contact" class="btn btn--pink">Get in touch</a>
+
+        <!-- If you give me some credit by keeping the below paragraph, will be huge for me 😊 Thanks. -->
+        <p>&copy; 2023 - Developed by <a href="" class="link">Aungmoe</a>.</p>
       </div>
-    </div>
-  </header>
+    </footer>
 
-  <main role="main">
-
-    <!-- ***** Work ***** -->
-
-    <section class="work" id="work">
-      <div class="row">
-        <h2>My Work</h2>
-        <div class="work__boxes">
-
-          <!-- Each div with the work__box class is a project. -->
-
-          <div class="work__box">
-            <div class="work__text">
-              <h3>Portfolio Template</h3>
-              <p>
-                A free Open Source Portfolio for anyone to use for free.
-              </p>
-              <ul class="work__list">
-                <li>HTML</li>
-                <li>SCSS</li>
-                <li>JavaScript</li>
-                <li>Parcel</li>
-              </ul>
-
-              <div class="work__links">
-                <a href="https://nisar.surge.sh" target="_blank" class="link__text">
-                  Visit Site <span>&rarr;</span>
-                </a>
-                <a href="https://github.com/nisarhassan12/portfolio" title="View Source Code" target="_blank">
-                  <img src="./images/github.svg" class="work__code" alt="GitHub">
-                </a>
-              </div>
-            </div>
-            <div class="work__image-box">
-              <img src="./images/project-1.png" class="work__image" alt="Project 1" />
-            </div>
-          </div>
-
-          <div class="work__box">
-            <div class="work__text">
-              <h3>Calculator</h3>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod,
-                eius.
-              </p>
-              <ul class="work__list">
-                <li>React</li>
-                <li>Next.js</li>
-                <li>Node</li>
-                <li>MongoDB</li>
-              </ul>
-
-              <div class="work__links">
-                <a href="#" class="link__text">
-                  Visit Site <span>&rarr;</span>
-                </a>
-                <a href="#">
-                  <img src="./images/github.svg" class="work__code" title="View Source Code" alt="GitHub">
-                </a>
-              </div>
-            </div>
-            <div class="work__image-box">
-              <img src="./images/project-2.png" class="work__image" alt="Project 1" />
-            </div>
-          </div>
-
-          <div class="work__box">
-            <div class="work__text">
-              <h3>Notificator</h3>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod,
-                eius.
-              </p>
-              <ul class="work__list">
-                <li>React</li>
-                <li>Next.js</li>
-                <li>Node</li>
-                <li>MongoDB</li>
-              </ul>
-
-              <div class="work__links">
-                <a href="#" class="link__text">
-                  Visit Site <span>&rarr;</span>
-                </a>
-                <a href="#">
-                  <img src="./images/github.svg" class="work__code" title="View Source Code" alt="GitHub">
-                </a>
-              </div>
-            </div>
-            <div class="work__image-box">
-              <img src="./images/project-3.png" class="work__image" alt="Project 3" />
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- ***** Clients ***** -->
-
-
-    <!-- ***** About ***** -->
-
-    <section class="about" id="about">
-      <div class="row">
-        <h2>About Me</h2>
-        <div class="about__content">
-          <div class="about__text">
-            <!-- Replace the below paragraph with info about yourself -->
-            <p>Hi! 👋 I’m Aungmoe, a web developer who loves creating amazing websites and apps. I enjoy making things look great 🎨 and work smoothly ⚙️.
-<br>
-    
-<br> 💻 What I Do:
-             <br> 
-              Frontend: Building user-friendly designs with React, Next.js, and TailwindCSS. <br>
-              Backend: Creating strong and secure systems using Node.js, Laravel, and PostgreSQL. <br>
-              Full-Stack: Combining everything to deliver complete projects. <br>
-<br>
-              🌟 <b>What I Love</b>:
-              I’m always learning new things 📚, solving problems 🧩, and working with great people 🤝. My goal is to build projects that help others and make a difference.
-              <br>
-              <br> 
-              ✨ </b>Outside Work</b>:
-              When I’m not coding, I enjoy listening to music 🎶, exploring tech 🔍, and improving my skills every day 🚀.
-             <br> 
-              Let’s connect and create something awesome together! 💡</p>
-            <!-- Provide a link to your resume -->
-            <a target="_blank" href="https://docs.google.com/document/d/1jdzyXPYydbDqKueuhXSr0eiLgDfKmNgqUI7pAQIvftc/edit?usp=sharing" class="btn">Download CV</a>
-          </div>
-
-          <div class="about__photo-container">
-            <!-- Add a nice photo of yourself -->
-            <img class="about__photo" src="./images/profile.jpeg" alt="" />
-          </div>
-        </div>
-      </div>
-    </section>
-  </main>
-
-  <!-- ***** Contact ***** -->
-
-  <section class="contact" id="contact">
-    <div class="row">
-      <h2>Get in Touch</h2>
-      <div class="contact__info">
-        <p>I’m always open to exciting opportunities, collaborations, and new challenges. Whether you’re looking for a skilled developer to bring your vision to life, need advice on a tech project, or simply want to discuss innovative ideas, I’d love to hear from you!
-
-          As a passionate web developer, I thrive on solving complex problems and creating seamless digital experiences. From modern, responsive websites to robust backend systems, I bring creativity, technical expertise, and a dedication to excellence to every project.</p>
-        <!-- Replace the email with yours -->
-        <a href="mailto:aungmoemyintthu@gmail.com" class="btn">aungmoemyintthu@gmail.com</a>
-      </div>
-    </div>
-  </section>
-
-  <!-- ***** Footer ***** -->
-
-  <footer role="contentinfo" class="footer">
-    <div class="row">
-      <!-- Update the links to point to your accounts -->
-      <ul class="footer__social-links">
-        <li class="footer__social-link-item">
-          <a href="https://www.facebook.com/aungmoemyinthu" title="Link to Facebook Profile">
-            <img src="./images/fb.svg" class="footer__social-image" alt="Facebook">
-          </a>
-        </li>
-        <li class="footer__social-link-item">
-          <a href="https://github.com/aungmoe32" title="Link to Github Profile">
-            <img src="./images/github.svg" class="footer__social-image" alt="Github">
-          </a>
-        </li>
-        <li class="footer__social-link-item">
-          <a href="https://www.linkedin.com/in/aung-moe-myint-thu-679884258">
-            <img src="./images/linkedin.svg" title="Link to Linkedin Profile" class="footer__social-image" alt="Linkedin">
-          </a>
-        </li>
-      </ul>
-
-      <!-- If you give me some credit by keeping the below paragraph, will be huge for me 😊 Thanks. -->
-      <p>
-        &copy; 2023 - Developed by <a href="" class="link">Aungmoe</a>.
-      </p>
-    </div>
-  </footer>
-
-  <a href="#top" class="back-to-top" title="Back to Top">
-    <img src="./images/arrow-up.svg" alt="Back to Top" class="back-to-top__image"/>
-  </a>
-  <script src="./index.js"></script>
-</body>
-
+    <a href="#top" class="back-to-top" title="Back to Top">
+      <img
+        src="./images/arrow-up.svg"
+        alt="Back to Top"
+        class="back-to-top__image"
+      />
+    </a>
+    <script src="./index.js"></script>
+  </body>
 </html>
